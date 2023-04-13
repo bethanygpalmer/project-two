@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-brand {
+    color: black;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: black;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('background-imagdie');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner image {
+    width: 100%;
+    display: block;
+    height: auto;
+    top: 500px;
+}
+
+.container {
+    text-align: ;
+}
+
+.welcome {
+    padding-top: 60px;
+	text-align: center;    
+}
+.h1, h1 {
+    text-align: center;
+	color: black;
+    font-size: 3rem
+}
+.mission {
+	color: black;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+}
+
+.best{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+    padding-top: 0%;
+}
+
+.feature-title {
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+    text-align: center;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.feature-info {
+    text-align: center;
+}
+
+.row{
+  margin: 20px;
+}
+.card{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card-body {
+    text-align: center;
+    background-color: black;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title {
+    color: white;
+    font-size: 60px;
+}
+
+.btn_shop{
+    display: inline-block;
+}
+
+.page-footer {
+    background-color: rgb(0, 0, 0);
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+form {
+    border: 4px solid #000000;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding-left: 0px;
+}
+
+.d-flex {
+    border: none;
+}
+
+.rounded {
+    padding-top: 15px;
+}
+

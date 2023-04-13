@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sephora</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Skincare</a></li>
+                    <li><a class="dropdown-item" href="#">Hair</a></li>
+                    <li><a class="dropdown-item" href="#">Makeup</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Other Panels
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../../index.html" class="link-dark">Reflection</a></li>
+                   <li><a href="../panel-one/index.html" class="link-dark">Panel One</a></li>
+                    <li><a href="../panel-two/index.html" class="link-dark">Panel Two</a></li>
+                    <li><a href="../panel-three/index.html" class="link-dark">Panel Three</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+<!--navbar end-->
+    <div class="banner mb-5">
+        <img class="banner image" src="assetts/img/Cosmetic-brushes-and-explosive-colored-powders.jpeg" alt="An image of two makeup brushes with colorful pigment bursting off of them on a black background ">
+    </div>
+<!--banner end-->
+    <div class="container mt-5">
+        <div class="row">
+        <div class="col">
+        <h1>Welcome!</h1>
+        <p class="mission">At Sephora, we believe beauty is for each person to define and ours to celebrate. Together, we support and encourage bold choices in beauty—and in life. Our purpose is to inspire fearlessness.</p>
+        <button type="button" class="btn btn-dark">Shop exclusive styles here</button>
+    </div>
+    </div>
+    </div>
+<!--welcome end-->
+
+<div class="best">
+    <h1>
+        Best Sellers
+    </h1>
+</div>
+<div class="container features">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1 class="feature-title">Dyson</h1>
+            <img src="assetts/img/dyson airwrap.webp" class="img-fluid" alt ="Product photo of the Dyson Airwrap hair styling tool with the attachments shown.">
+            <p class="feature-info">Airwrap™ Multi-Styler Complete Long</p>
+            <p class="feature-info">$599.00</p>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Nars</h3>
+            <img src="assetts/img/nars.jpeg" alt="Product Photo of Nars Radient Creamy Concealer in a dark shade."class="img-fluid">
+            <p class="feature-info">Radient Creamy Concealer</p>
+            <p class="feature-info">$32.00</p>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Rare Beauty</h3>
+            <img src="assetts/img/rare beauty 2.jpeg"  alt ="Product photo of Rare Beauty Soft Pinch Liquid Blush in a coral pink shade with the applicator shown." class="img-fluid">
+            <p class="feature-info">Soft Pinch Liquid Blush</p>
+            <p class="feature-info">$23.00</p>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Sol de Janeiro</h3>
+            <img src="assetts/img/body mist.webp" alt="Product photo of Sol de Janiero Brazilian Crush Cheirosa '62 Bum Bum Hair & Body Fragrance Mist in yellow packaging with a white top." class="img-fluid">
+            <p class="feature-info">Brazilian Crush Cheirosa '62 Bum Bum Hair & Body Fragrance Mist
+            </p>
+            <p class="feature-info">$38.00</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Supergoop!</h3>
+            <img src="assetts/img/supergoop 2.webp" alt="Product photo of Supergoop! Glowscreen Sunscreen SPF 40 PA+++ with Hyaluronic Acid + Niacinamide with white packaging and a yellow cap." class="img-fluid">
+            <p class="feature-info">Glowscreen Sunscreen SPF 40 PA+++ with Hyaluronic Acid + Niacinamide</p>
+            <p class="feature-info">$38.00</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Tatcha</h3>
+            <img src="assetts/img/tatcha.jpeg" alt="Product photo of Tatcha The Dewy Skin Cream Plumping & Hydrating Moisturizer with purple packaging." class="img-fluid">
+            <p class="feature-info">The Dewy Skin Cream Plumping & Hydrating Moisturizer</p>
+            <p class="feature-info">$70.00</p>
+        </div>
+    </div>
+</div>
+<!--best sellers end-->
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="assetts/img/oil.jpeg" class="card-img-top" alt="Upclose picture of african american woman with dewy natural skin.">
+        <div class="card-body">
+          <h5 class="card-title">Skin</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assetts/img/red hair 2.jpeg" class="card-img-top" alt="Upclose picture of shiny healthy hair that is an auburn brown color.">
+        <div class="card-body">
+          <h5 class="card-title">Hair</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assetts/img/model makeup.jpeg" class="card-img-top" alt="Upclose picture of african american woman with purple eyeshadow.">
+        <div class="card-body">
+          <h5 class="card-title">Makeup</h5>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--cards end-->
+
+<div class="container-fluid bg-gradient">
+    <div class="container white-text p-5">
+      <div class="row">
+        <div class="col-sm-4 d-flex align-items-center">
+          <div>
+            <h2>Skin</h2>
+            <p>Put your best face forward with high-performance skin care. Our range of skin care products cleanses, treats, moisturizes, & protects with results-driven formulas & powerful ingredients
+            </p>
+            <button type="button" class="btn btn_shop btn-dark">Shop</button>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <img src="assetts/img/skincare on black.avif" alt="A partially opened skin care product in black packaging sitting in a black background." class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+    <div class="container white-text p-5">
+      <div class="row">
+        <div class="col-sm-4 d-flex align-items-center order-sm-2">
+          <div>
+          <h2>Hair</h2>
+          <p>Looking for hair styling products? We're here to help. Our range of hair care products provides all you need to cleanse, style, and treat any hair type.</p>
+          <button type="button" class="btn btn_shop btn-dark">Shop</button>
+        </div>
+        </div>
+        <div class="col-sm-8 order-sm-1">
+          <img src="assetts/img/haircare on black.webp" alt="A circle of hair styling products surrounding the boarder with a black background." class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid bg-gradient">
+    <div class="container white-text p-5">
+      <div class="row">
+        <div class="col-sm-4 d-flex align-items-center">
+          <div>
+            <h2 class="">Makeup</h2>
+            <p>When it comes to serving face, we've got you covered. Whether you have a favorite brand or need help finding the perfect match, Sephora is your No.1 destination for everything beauty.</p>
+            <button type="button" class="btn btn_shop btn-dark">Shop</button>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <img src="assetts/img/makeup on black.jpeg" alt="Lots of lipsticks scattered around on a black background." class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+
+<!--info about each area ends-->
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <form action="action_page.php">
+                    <div class="container">
+                      <h2>Subscribe to our Newsletter</h2>
+                    </div>
+                  
+                    <div class="container" style="background-color:rgb(0, 0, 0)">
+                      <input type="text" placeholder="Name" name="name" required>
+                      <input type="text" placeholder="Email address" name="mail" required>
+                      <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                      </label>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="submit" value="Subscribe">
+                    </div>
+                  </form>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container">
+                <h2>Contact</h2>
+                </div>
+                     <p>1-877-SEPHORA (1-877-737-4672) (U.S. or Canada
+                     </p>
+                
+                    <p>Hearing impaired/TTY 1-888-866-9845</p>
+                     <p>Representatives or Beauty Advisors are available:
+                     MON-FRI: 5am to 9pm PT
+                    SAT-SUN: 6am to 9pm PT</p>
+         </div>
+    <div>
+</footer>
+<!--footer ends-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
